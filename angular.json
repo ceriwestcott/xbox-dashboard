@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "ui": "libs/ui",
     "xbox-dash": "apps/xbox-dash",
     "xbox-dash-e2e": "apps/xbox-dash-e2e"
   }

@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@xbox-dash/ui": ["libs/ui/src/index.ts"],
+      "xbox-dash": ["libs/ui-v2/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
